@@ -1,0 +1,49 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+org.apache.streampipes.processors.transformation.jvm.processor.state.labeler.number.title=Number Labeler
+org.apache.streampipes.processors.transformation.jvm.processor.state.labeler.number.description=Adds a label based on a  user defined rule to a sensor time-series
+
+sensorValueId.title=Sensor value
+sensorValueId.description=The value used for the labeling
+
+labelCollectionId.title=Condition
+labelCollectionId.description=Add a condition to provide a label for the data
+
+stateFilterId.title=Select a specific state
+stateFilterId.description=Add a filter to define which states to evaluate. Add '*' to select all states.
+
+stateFieldId.title=State field
+stateFieldId.description=Select the field containing the state of the event
+
+operationsId.title=Operation
+operationsId.description=Define the operation that should be applied on sensor values
+
+label.title=Label
+label.description=User defined label for data
+
+labelStringId.title=Label Value
+labelStringId.description=Provide the label value to be added to the event
+
+comparatorId.title=Comparator
+comparatorId.description=Select a comparator
+
+numberValueId.title=Numerical Value
+numberValueId.description=Specify the numerical value for the condition
+
+labelName.title=Label Name
+labelName.description=Specify the name of the label (how it can be accessed in following components)

@@ -1,0 +1,35 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+
+org.apache.streampipes.processors.transformation.jvm.processor.booloperator.state.title=Boolean To State
+org.apache.streampipes.processors.transformation.jvm.processor.booloperator.state.description=Transforms boolean properties into a string state property
+
+state-field.title=State field
+state-field.description=Test
+
+collection-id.title=Collection Field
+collection-id.description=Test
+
+default-state-id.title=Default State
+default-state-id.description=Define a default state, when all values are false
+
+boolean_state_field.title=Current State
+boolean_state_field.description=When the boolean value is true the runtime name is used for the final state value
+
+json-configuration.title=Mapping Configuration
+json-configuration.description=Define mappings to replace the runtime names with own Strings
