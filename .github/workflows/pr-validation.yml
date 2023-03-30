@@ -16,6 +16,7 @@
 name: PR validation
 
 on:
+  push:
   pull_request:
 
 jobs:
@@ -162,6 +163,7 @@ jobs:
         working-directory: ./streampipes-client-python
         run: |
           make unit-tests
+          ls .coverage-reports
 
   python-doc-checks:
     runs-on: ubuntu-latest
